@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Xamarin_1._0.MainPage">
+
+    <StackLayout BackgroundColor="#FF1D3752">
+
+        
+        <Frame BackgroundColor="#FF214D72" Padding="10" CornerRadius="3">
+            
+            <Label Text="Banco R.O." FontSize="35" 
+                   HorizontalTextAlignment="Center" 
+                   TextColor="WhiteSmoke"/>
+        </Frame>
+        <Frame BackgroundColor="#FF2C7695" Padding="10" CornerRadius="15">
+            <Label Text="Desglosador de monedas"  
+                   TextColor="White" 
+                   HorizontalTextAlignment="Center" FontSize="20"/>
+        </Frame>
+        <Entry Placeholder="Ingresa cantidad" 
+               Keyboard="Numeric"
+               x:Name="Cantidad"/>
+        <Button Text="Aceptar"
+                FontSize="18"
+                TextColor="#FFE6E6E4"
+                BackgroundColor="#FF50BFC3"
+                CornerRadius="25"
+                WidthRequest="100"
+                HeightRequest="45"
+                Clicked="Button_Clicked"/>
+        <Label Text=" "/>
+        <Label Text="Billetes" FontSize="22" 
+               HorizontalTextAlignment="Center"
+               TextColor="WhiteSmoke" />
+        <Label FontSize="20" 
+               HorizontalTextAlignment="Center"
+               TextColor="WhiteSmoke"
+               x:Name="C200"/>
+        <Label FontSize="20" 
+               HorizontalTextAlignment="Center" 
+               TextColor="WhiteSmoke"
+               x:Name="C100"/>
+        <Label FontSize="20" 
+               HorizontalTextAlignment="Center" 
+               TextColor="WhiteSmoke"
+               x:Name="C50"/>
+        <Label FontSize="20" 
+               HorizontalTextAlignment="Center" 
+               TextColor="WhiteSmoke"
+               x:Name="C20"/>
+        <Label FontSize="20" 
+               HorizontalTextAlignment="Center" 
+               TextColor="WhiteSmoke"
+               x:Name="C10"/>
+        <Label FontSize="20" 
+               HorizontalTextAlignment="Center" 
+               TextColor="WhiteSmoke"
+               x:Name="C5"/>
+        <Label FontSize="20" 
+               HorizontalTextAlignment="Center" 
+               TextColor="WhiteSmoke"
+               x:Name="C1"/>
+        <Label Text=" "/>
+        <Label Text="Monedas" FontSize="22" 
+               HorizontalTextAlignment="Center"
+               TextColor="WhiteSmoke" />
+        <Label FontSize="20" 
+               HorizontalTextAlignment="Center" 
+               TextColor="WhiteSmoke"
+               x:Name="M50"/>
+        <Label FontSize="20" 
+               HorizontalTextAlignment="Center" 
+               TextColor="WhiteSmoke"
+               x:Name="M25"/>
+        <Label FontSize="20" 
+               HorizontalTextAlignment="Center" 
+               TextColor="WhiteSmoke"
+               x:Name="M10"/>
+        <Label FontSize="20" 
+               HorizontalTextAlignment="Center" 
+               TextColor="WhiteSmoke"
+               x:Name="M5"/>
+        <Label FontSize="20" 
+               HorizontalTextAlignment="Center" 
+               TextColor="WhiteSmoke"
+               x:Name="M1"/>
+
+
+
+    </StackLayout>
+
+</ContentPage>
